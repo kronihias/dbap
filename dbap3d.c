@@ -1755,7 +1755,7 @@ void dbap3d_assist(dbap3d *x, void *b, long m, long a, char *s)
     else if (m==2&&a==1) { post("info"); }
 }
 
-void setup(void)
+void dbap3d_setup(void)
 {
   //long int tick = gettime();
   dbap3d_class = class_new(gensym("dbap3d"), (t_newmethod)dbap3d_new, (t_method)dbap3d_free, sizeof(dbap3d), 0, A_GIMME, 0);
