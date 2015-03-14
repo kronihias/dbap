@@ -1,0 +1,8 @@
+#N canvas 13 109 200 200 10;
+#N canvas 647 346 420 300 META 1;
+#X text 10 10 VERSION 0.1;
+#X text 10 25 AUTHOR m.kronlachner(at)gmail.com;
+#X text 13 41 NAME dbap;
+#X text 35 93 This is a port of the Max Externals a-dbap2d and a-dbap3d
+by André Sier.;
+#X restore 10 10 pd META;
